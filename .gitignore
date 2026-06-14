@@ -1,0 +1,126 @@
+# Python bytecode / caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.env
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Build / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.manifest
+*.spec
+
+# Test / type-check / coverage caches
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+
+# IDE / OS local files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local notes / scratch files
+text_app.txt
+*.tmp
+*.bak
+*.old
+
+# Logs and local runtime files
+*.log
+pip-log.txt
+pip-delete-this-directory.txt
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Datasets: keep these on Google Drive / Kaggle / Hugging Face, not GitHub
+data/
+
+# Model checkpoints and pretrained weights: store externally and document links in README
+pretrained/
+checkpoints/
+weights/
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.safetensors
+
+# Generated experiment artifacts
+outputs/
+outputs_hf/
+results/
+samples/
+runs/
+wandb/
+mlruns/
+
+# Large media or generated inference files
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+*.bmp
+*.tif
+*.tiff
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.mdb
+*.lmdb
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# Generated reports / metrics
+*.csv
+*.tsv
+*.xlsx
+
+# Keep small documentation assets if you add them later
+!assets/
+!assets/**
