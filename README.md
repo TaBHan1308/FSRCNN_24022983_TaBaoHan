@@ -169,24 +169,6 @@ Nếu muốn validate, sửa `mode = "valid"` trong `config.py`, kiểm tra lạ
 python validate.py
 ```
 
-## Ghi chú khi đưa lên GitHub
-
-Repo GitHub mới nên dùng các file trong thư mục dự án hiện tại làm root repo, nghĩa là `app.py`, `train.py`, `model.py`, `README.md`, `.gitignore`, ... nằm ngay bên ngoài repo, không bọc thêm một thư mục cha.
-
-Khi chuẩn bị repo mới:
-
-1. Tạo folder GitHub mới.
-2. Copy toàn bộ file/thư mục bên trong thư mục dự án hiện tại rồi dán vào folder GitHub mới.
-3. Không copy thư mục ẩn `.git` cũ nếu có.
-4. Giữ nguyên `.gitignore` để chặn dataset, checkpoint, output và file media nặng.
-
-Sau đó chạy:
-
-```bash
-git init
-git add .
-git commit -m "Initial commit"
-```
 
 ```text
 Dataset/checkpoint Google Drive: <https://drive.google.com/drive/folders/1clL6bK0NWNm8dM8SaetrDVE2Aaz8X6e6?usp=drive_link>
