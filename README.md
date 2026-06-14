@@ -176,10 +176,12 @@ Dataset/checkpoint Google Drive: <https://drive.google.com/drive/folders/1clL6bK
 
 ## Kết quả mẫu
 
-Low Resolution / Super Resolution / High Resolution
+Ví dụ super-resolution với ảnh `bird.png` trong tập Set5:
+
+Low Resolution / FSRCNN x3 / High Resolution
 
 <p align="center">
-  <img src="assets/result.png" alt="FSRCNN result example">
+  <img src="assets/set5_bird_lr_fsrcnn_hr.png" alt="Set5 bird LR FSRCNN x3 HR comparison">
 </p>
 
 ## Credit
