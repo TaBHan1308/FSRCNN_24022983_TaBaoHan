@@ -186,7 +186,9 @@ Low Resolution / FSRCNN x3 / High Resolution
 
 ## Credit
 
-Project dựa trên bài báo:
+Project dựa trên:
+
+**FSRCNN-PyTorch/Lornatang trên GitHub
 
 **Accelerating the Super-Resolution Convolutional Neural Network**  
 Chao Dong, Chen Change Loy, Xiaoou Tang
